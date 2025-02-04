@@ -17,7 +17,7 @@ body {
    height: 219px;
    text-align: center; /* qui e non su precedente, iCab3 */
    vertical-align: middle;
-   background: #000 url(g100c2.pl?g100c2.gif) 10px 10px;
+   background: #000;
 }
 
 .wrap img {
