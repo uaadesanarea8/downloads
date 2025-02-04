@@ -1,0 +1,36 @@
+body {
+   color: #000;
+   background-color: #fff;
+   font-family: Georgia, serif;
+}
+
+.wrap div {
+   float: left;
+   border: solid 1px #666;
+   margin: 10px 10px 0 0;
+   border-collapse: collapse; /* Op7 */
+}
+
+.wrap a {
+   display: table-cell;
+   width: 219px;
+   height: 219px;
+   text-align: center; /* qui e non su precedente, iCab3 */
+   vertical-align: middle;
+   background: #ffa url(g100c2.pl?g100c2.gif) 10px 10px;
+}
+
+.wrap img {
+   border: solid 1px #66f;
+   vertical-align: middle;
+}
+
+.clear {
+   clear: both;
+   margin: 0;
+   padding: 1em 0;
+}
+
+.wrap a:hover {
+   background-color: #dfd;
+}
