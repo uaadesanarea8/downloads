@@ -17,12 +17,15 @@ body {
    height: 219px;
    text-align: center; /* qui e non su precedente, iCab3 */
    vertical-align: middle;
-   background: #ffa url(g100c2.pl?g100c2.gif) 10px 10px;
+   background: #000 url(g100c2.pl?g100c2.gif) 10px 10px;
 }
 
 .wrap img {
-   border: solid 1px #66f;
+   border: none;
    vertical-align: middle;
+   height: auto;
+   max-width: 150px;
+   max-height: 150px;
 }
 
 .clear {
